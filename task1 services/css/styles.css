@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box}
+body{
+    margin: 0;
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    letter-spacing: .3px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 15px;
+}
+.features{
+    font-size: 0;
+    /* outline: 1px solid seagreen; */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.feature{
+    display: inline-block;
+    font-size: 20px;
+    /* outline: 1px solid red; */
+    width: 30%;
+    margin: 1%; 
+    padding: 22px 10px;
+}
+
+h3{
+    text-transform: uppercase;   
+}
+
+p{
+    color: #9d9d9d;
+}
+
+.fas{
+    /* outline: 1px solid blue; */
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: #1275b9;
+    text-align: center;
+    padding: 22px 0;
+    color: #fff;
+}
+
+.feature:hover .fas{
+    background-color: #fff;
+    border: 2px solid  #2a69a6;
+    color: #2a69a6;  
+}
+
+.fas:hover{
+    background-color: #fff;
+    border: 2px solid  #2a69a6;
+    color: #2a69a6;
+}
+/* a:focus,
+a:active {
+} */
+* {
+    transition: all .3s ease-in;
+}
