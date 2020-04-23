@@ -13,13 +13,12 @@ body{
     color: #fff;
     background-color: rgb(45 48 53);
     border: 20px solid #fff;
-    height: 100%;
+    min-height: 100vh;
 }
 
 .container{
     margin: 0 auto;
-    max-width: 800px;
-    
+    max-width: 800px;  
 }
 
 header, footer{
@@ -36,20 +35,24 @@ header{
 footer {
     background-color: rgb(58 62 68);
     padding: 20px;
-    margin: 70px 0;
+    margin: 40px 0;
 }
 h1{
-  
+    margin: 0;
+    padding: 0;
     color: rgb(228 105 110);
 }
 
-label{
-    padding: 30px;
+.list{
+    margin: 0;
+    padding: 0;
+    
 }
 
 li{
     list-style: none;
     padding: 15px;
+    
 }
 
 small{
@@ -69,19 +72,21 @@ small::after{
     content: ')';
 }
 
-li:nth-child(odd){
-    background-color: rgb(117 110 141);
-}
-
-li:nth-child(even){
+ul li:nth-child(even){
     background-color: rgb(103 97 129);
+    border-top: 3px solid rgb(103 97 129);
+    border-bottom: 3px solid rgb(103 97 129);
+}
+ul li:nth-child(odd){
+    background-color: rgb(117 110 141);
+    border-top: 3px solid rgb(117 110 141);
+    border-bottom: 3px solid rgb(117 110 141);
 }
 
-li:hover{
+ul li:hover{
     background-color: rgb(79 74 100);
     border-top: 3px solid #fff;
     border-bottom: 3px solid #fff;
-
 }
 
 [type=checkbox]:checked + span{
