@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box}
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
@@ -27,6 +28,7 @@ body{
     width: 30%;
     margin: 1%; 
     padding: 22px 10px;
+    text-align: center;
 }
 
 h3{
@@ -35,33 +37,31 @@ h3{
 
 p{
     color: #9d9d9d;
+    font-weight: 300;
 }
 
-.fas{
+.feature i{
     /* outline: 1px solid blue; */
     width: 62px;
     height: 62px;
     border-radius: 50%;
     background-color: #1275b9;
-    text-align: center;
-    padding: 22px 0;
+    line-height: calc(62px - 2*2px);
     color: #fff;
+
+    border: 2px solid  #2a69a6; 
 }
 
-.feature:hover .fas{
-    background-color: #fff;
-    border: 2px solid  #2a69a6;
-    color: #2a69a6;  
-}
 
-.fas:hover{
+
+.fas:hover,
+.fas:focus,
+.fas:active {
     background-color: #fff;
     border: 2px solid  #2a69a6;
     color: #2a69a6;
-}
-/* a:focus,
-a:active {
-} */
+} 
+
 * {
     transition: all .3s ease-in;
 }
