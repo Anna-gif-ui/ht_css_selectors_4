@@ -50,8 +50,15 @@ h1{
 
 li{
     list-style: none;
+    /* display: inline-block;
+    width: 100%; */
+       
+}
+
+label{
     padding: 15px;
-    
+    display: inline-block;
+    width: 100%;
 }
 
 small{
